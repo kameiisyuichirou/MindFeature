@@ -1,0 +1,12 @@
+.reset {
+  padding: 0 5%;
+  margin-top: 20px;
+}
+
+.reset a {
+  text-decoration: underline;
+}
+
+.reset_message {
+  color: #DD0000;
+}

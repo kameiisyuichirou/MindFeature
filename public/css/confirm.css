@@ -1,0 +1,46 @@
+.confirm_input {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.submit_btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.confirm_send {
+  width: 50%;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid #BBBBBB;
+  font-size: 1.2rem;
+  background-color: #3e8ed0;
+  cursor: pointer;
+  color: white;
+  transition: all .3s ease;
+}
+
+.confirm_send:hover {
+  opacity: 0.8;
+  transition: all .3s ease;
+}
+
+.back {
+  width: 50%;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid #BBBBBB;
+  font-size: 1.2rem;
+  background-color: #3e8ed0;
+  cursor: pointer;
+  color: white;
+  transition: all .3s ease;
+}
+
+.back:hover {
+  opacity: 0.8;
+  transition: all .3s ease;
+}

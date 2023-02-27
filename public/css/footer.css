@@ -1,0 +1,24 @@
+footer {
+  background-color: #EEEEEE;
+  padding: 0 5%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer ul li {
+  margin: 0 20px;
+}
+
+.footer ul li a {
+  color: black;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px;
+}

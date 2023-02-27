@@ -1,0 +1,36 @@
+.course_name p {
+  padding-left: 5%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.course_name {
+  margin-bottom: 30px;
+}
+
+.course_top {
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.course_select {
+  width: 100%;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: #3e8ed0;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.course_select:hover {
+  opacity: 0.8;
+  transition: all .3s ease;
+}
+
+.guidance1 p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
