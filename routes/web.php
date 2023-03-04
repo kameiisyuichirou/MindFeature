@@ -21,14 +21,6 @@ Route::get('/', function () {
 
 Route::get('/index',[UserController::class,'index'])->name('index');
 
-Route::get('/contact',
-[UserController::class,'contact'])
-->name('contact');
-
-Route::post('/confirm',[UserController::class,'confirm'])->name('confirm');
-
-Route::post('/send',[UserController::class,'send'])->name('send');
-
 Route::get('/register',[UserController::class,'register'])->name('register');
 
 Route::post('/register_complete',[UserController::class,'register_complete'])->name('register_complete');
@@ -58,6 +50,14 @@ Route::middleware(['AdminMiddleware'])->group(function(){
 
     Route::post('/admin_create',[UserController::class,'admin_create'])->name('admin_create');
 });
+
+Route::get('/contact',
+[UserController::class,'contact'])
+->name('contact');
+
+Route::post('/confirm',[UserController::class,'confirm'])->name('confirm');
+
+Route::post('/send',[UserController::class,'send'])->name('send');
 
 
 
