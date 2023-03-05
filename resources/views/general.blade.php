@@ -53,7 +53,6 @@
         <form action="{{ route('general_course') }}" method="POST">
         @csrf
         <select name="study_course" id="study_course">
-          <option value="">コース選択</option>
           @foreach($courses as $course)
           <option value="{{ $course->id }}">{{ $course->course_name }}</option>
           @endforeach
